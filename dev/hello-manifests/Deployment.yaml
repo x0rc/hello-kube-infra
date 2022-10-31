@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-kubernetes-basic
-          image: 073045235439.dkr.ecr.us-east-1.amazonaws.com/hello-kube:22
+          image: 073045235439.dkr.ecr.us-east-1.amazonaws.com/hello-kube:23
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
